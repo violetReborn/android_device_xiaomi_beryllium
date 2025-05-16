@@ -30,6 +30,9 @@ TARGET_PREBUILT_BCR := false
 # Blur
 TARGET_ENABLE_BLUR := false
 
+# Bypass Charging
+BYPASS_CHARGE_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
