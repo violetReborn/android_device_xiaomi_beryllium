@@ -27,6 +27,9 @@ AXION_CPU_FG := 0-7
 # BCR
 TARGET_PREBUILT_BCR := false
 
+# Blur
+TARGET_ENABLE_BLUR := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
