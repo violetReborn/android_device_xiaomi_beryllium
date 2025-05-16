@@ -17,6 +17,10 @@ AXION_PROCESSOR := Snapdragon_845
 AXION_CAMERA_REAR_INFO := 12,5
 AXION_CAMERA_FRONT_INFO := 20
 
+# CPU
+AXION_CPU_SMALL_CORES := 0,1,2,3
+AXION_CPU_BIG_CORES := 4,5,6,7
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
