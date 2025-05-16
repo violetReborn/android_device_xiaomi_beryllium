@@ -24,6 +24,9 @@ AXION_CPU_BIG_CORES := 4,5,6,7
 AXION_CPU_BG := 0-1
 AXION_CPU_FG := 0-7
 
+# BCR
+TARGET_PREBUILT_BCR := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
