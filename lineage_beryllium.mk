@@ -34,6 +34,11 @@ TARGET_ENABLE_BLUR := false
 # Bypass Charging
 BYPASS_CHARGE_SUPPORTED := true
 
+# LineageOS Prebuilts
+ifneq ($(WITH_GMS),true)
+TARGET_INCLUDES_LOS_PREBUILTS := true
+endif
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_beryllium
 PRODUCT_DEVICE := beryllium
