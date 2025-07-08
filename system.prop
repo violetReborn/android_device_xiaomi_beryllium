@@ -3,3 +3,9 @@ persist.vendor.camera.perfcapture=1
 
 # Recovery
 ro.recovery.ui.margin_height=87
+# Device Defintions
+ro.product.marketname=Poco F1
+ro.infinity.soc=Snapdragon 845
+ro.infinity.battery=4000 mAh
+ro.infinity.display=2246 x 1080, 60 Hz
+ro.infinity.camera=12MP + 5MP | 20MP
