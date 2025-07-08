@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_beryllium.mk
+    $(LOCAL_DIR)/infinity_beryllium.mk
+
+COMMON_LUNCH_CHOICES := \
+    infinity_beryllium-eng \
+    infinity_beryllium-userdebug \
+    infinity_beryllium-user
